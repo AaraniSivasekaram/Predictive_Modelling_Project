@@ -1,19 +1,18 @@
-# Capstone Project - Sociodemographic Data and COVID-19 Vaccine Hesitancy
-Final Project - Predicting COVID-19 vaccine hesistancy based on sociodemographic data
+# Capstone Project - Sociodemographic Data and COVID-19 Vaccine Hesitancy in the US
 
-### Team
+## Team
 * **Square:** Setting up the repository, communication protocols (Aarani)
 * **Circle:** Creating the database (Hayden)
 * **Triangle:** Machine learning model (Amy)
 * **X:** Technolgies overview (Tiffany)
 
-### Communication Protocols
+## Communication Protocols
 * Group Slack channel created for quick and easy communications among all team members,
 * Google document created for information sharing (ideas, data, roles),
-* Additional meeting time determined outside of class ours (Saturdays and Sundays), and
-* Next steps will be determined at the end of each class and meeting.
+* Additional zoom meeting time(s) determined outside of class hours (Saturdays and Sundays), and
+* Next steps will be determined at the end of each class and/or meeting.
 
-### Project Overview
+## Project Overview
 **Topic:** An analysis of COVID-19 vaccine hesitancy.
 
 **Topic selection rationale:** Given the global presence of COVID-19 and the implementation of recent months of vaccine rollout have been a positive change in Ontario, our team decided to look into vaccine hesitancy to understand this issue better.
@@ -26,21 +25,20 @@ Final Project - Predicting COVID-19 vaccine hesistancy based on sociodemographic
 3. What barriers exist in vaccine implementation and how can these be mitigated?
 4. How can this analysis inform to vaccine implementation strategies within an Ontario context?
 
-### Technology
-* **Data Cleaning and Analysis**
-Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
-* **Database Storage**
-SQL is the database we intend to use, and we will integrate Flask to display the data.
-* **Machine Learning**
-SciKitLearn is the ML library we'll be using to create a classifier.
-* **Dashboard**
-In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. 
+## Technology
+**Data Cleaning and Analysis:** Python version 3.7.6 (Visual Studio Code and Jupyter Notebook) with Python Libraries used to clean data and perform exploratory analysis (Pandas, numpy, flask, SQLAlchemy)
 
-### Machine Learning Model
+**Database Storage:** SQL (Postgres & pgAdmin) is the database we intend to use, and we will integrate Flask to display the data.
+
+**Machine Learning:** SciKitLearn is the Machine Learning library we'll be using to create a Random Forest classifier. 
+
+**Dashboard:** In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. 
+
+## Machine Learning Model
 To predict vaccination hesitancy, our team has decided to use a Random Forest model (supervised, regression) primarily due to the number of feature inputs. Our plan consists of using approximately 70% of the dataset to train the machine learning algorithm, and then test the accuracy and predictive effectiveness on the remaining 30%. This model will determine the importance of each feature as it relates to vaccination hesitancy, providing a base for:
 * Identifying features that have a larger impact (and therefore act as a barrier)
 * The application of this model for other populations preparing for vaccination rollout
 
-### Database Structure
+## Database Structure
 
-#### Data Cleaning
+### Data Cleaning
