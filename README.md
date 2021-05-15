@@ -37,6 +37,9 @@ SciKitLearn is the ML library we'll be using to create a classifier.
 In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. 
 
 ### Machine Learning Model
+To predict vaccination hesitancy, our team has decided to use a Random Forest model (supervised, regression) primarily due to the number of feature inputs. Our plan consists of using approximately 70% of the dataset to train the machine learning algorithm, and then test the accuracy and predictive effectiveness on the remaining 30%. This model will determine the importance of each feature as it relates to vaccination hesitancy, providing a base for:
+* Identifying features that have a larger impact (and therefore act as a barrier)
+* The application of this model for other populations preparing for vaccination rollout
 
 ### Database Structure
 
