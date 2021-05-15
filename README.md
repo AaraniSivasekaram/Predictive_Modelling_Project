@@ -1,5 +1,5 @@
-# Vaccine_Hesitancy_Project
-Final Project - COVID-19 predictive vaccine hesistancy based on sociodemographic data
+# Capstone Project - Sociodemographic Data and COVID-19 Vaccine Hesitancy
+Final Project - Predicting COVID-19 vaccine hesistancy based on sociodemographic data
 
 ### Team
 * **Square:** Setting up the repository, communication protocols (Aarani)
@@ -10,6 +10,17 @@ Final Project - COVID-19 predictive vaccine hesistancy based on sociodemographic
 ### Communication Protocols
 
 ### Project Overview
+**Topic:** An analysis of COVID-19 vaccine hesitancy.
+
+**Topic selection rationale:** Given the global presence of COVID-19 and the implementation of recent months of vaccine rollout have been a positive change in Ontario, our team decided to look into vaccine hesitancy to understand this issue better.
+
+**Data Description/Source:** Our team was able to secure a dataset from Kaggle that captures United States county-level data that includes sociodemographic data, geographic data and percentage of populations that are vaccine hesitant. The original dataset has 18 columns of sociodemographic and geographic indicators, and two columns for vaccine hesitancy outcomes. The dataset contains information from 3,142 counties in the United States. The data was obtained through Kaggle (https://www.kaggle.com/deepshah16/vaccine-hesitancy-for-covid19), and is sourced from https://www.data.gov.
+
+**Questions:**
+1. Based on the sociodemographic indicators available, are we able to predict vaccine hesitancy in US counties?
+2. How do sociodemographic indicators affect vaccine hesitancy?
+3. What barriers exist in vaccine implementation and how can these be mitigated?
+4. How can this analysis inform to vaccine implementation strategies within an Ontario context?
 
 ### Technology
 * **Data Cleaning and Analysis**
@@ -23,6 +34,6 @@ In addition to using a Flask template, we will also integrate D3.js for a fully 
 
 ### Machine Learning Model
 
-### Data
+### Database Structure
 
 #### Data Cleaning
