@@ -4,7 +4,7 @@
 * **Square:** Setting up the repository, communication protocols (Aarani)
 * **Circle:** Creating the database (Hayden)
 * **Triangle:** Machine learning model (Amy)
-* **X:** Technolgies overview (Tiffany)
+* **X:** Technologies overview (Tiffany)
 
 ## Communication Protocols
 * Group Slack channel created for quick and easy communications among all team members,
