@@ -8,6 +8,10 @@ Final Project - Predicting COVID-19 vaccine hesistancy based on sociodemographic
 * **X:** Technolgies overview (Tiffany)
 
 ### Communication Protocols
+* Group Slack channel created for quick and easy communications among all team members,
+* Google document created for information sharing (ideas, data, roles),
+* Additional meeting time determined outside of class ours (Saturdays and Sundays), and
+* Next steps will be determined at the end of each class and meeting.
 
 ### Project Overview
 **Topic:** An analysis of COVID-19 vaccine hesitancy.
