@@ -38,6 +38,7 @@
 To predict vaccination hesitancy, our team has decided to use a Random Forest model (supervised, regression) primarily due to the number of feature inputs. Our plan consists of using approximately 70% of the dataset to train the machine learning algorithm, and then test the accuracy and predictive effectiveness on the remaining 30%. This model will determine the importance of each feature as it relates to vaccination hesitancy, providing a base for:
 * Identifying features that have a larger impact (and therefore act as a barrier)
 * The application of this model for other populations preparing for vaccination rollout
+
 *Refer to model example using mock data here: [RandomForest_example.ipynb](RandomForest_example.ipynb)*
 
 ## Database Structure
