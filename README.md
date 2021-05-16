@@ -28,6 +28,12 @@
 ## Technology
 **Data Cleaning and Analysis:** Python version 3.7.6 (Visual Studio Code and Jupyter Notebook) with Python Libraries used to clean data and perform exploratory analysis (Pandas, numpy, flask, SQLAlchemy)
 
+**Database Storage:** SQL (Postgres & pgAdmin) is the database we intend to use, and we will integrate Flask to display the data.
+
+**Machine Learning:** SciKitLearn is the Machine Learning library we'll be using to create a Random Forest classifier. 
+
+**Dashboard:** In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. 
+
 **Database Storage:** SQL (Postgres & pgAdmin, AWS) is the database we intend to use, and we will integrate Flask to display the data.
 
 **Machine Learning:** SciKitLearn is the Machine Learning library we'll be using to create a Random Forest classifier. 
@@ -42,5 +48,9 @@ To predict vaccination hesitancy, our team has decided to use a Random Forest mo
 *Refer to model example using mock data here: [RandomForest_example.ipynb](RandomForest_example.ipynb)*
 
 ## Database Structure
+
+We use PostgreSQL to create table for data base, dataset_1 "feature_Vaccine_Hesitancy.csv" has every columns as the features columns will be useing in machine leaning model and dataset_2 "Vaccine_estimated_target_Hesitancy.csv" has Estimated Hesitant and Estimated Strongly Hesitant columns as the target in  machine leaning model. Then we use SQL statement to merge these two table in one dataset and starts cleaning by using python Pandas library. The ERD png image shows the relationship diagram of 2 datasets.
+
+![ERD](https://github.com/AaraniSivasekaram/Vaccine_Hesitancy_Project/blob/Hayden/QuickDBD_ERD_Vaccine_Hesitancy_DB.png)
 
 ### Data Cleaning
