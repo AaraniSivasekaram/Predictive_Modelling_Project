@@ -45,6 +45,6 @@ To predict vaccination hesitancy, our team has decided to use a Random Forest mo
 ## Database Structure
 We use PostgreSQL to create table for data base, dataset_1 "feature_Vaccine_Hesitancy.csv" has every columns as the features columns will be useing in machine leaning model and dataset_2 "Vaccine_estimated_target_Hesitancy.csv" has Estimated Hesitant and Estimated Strongly Hesitant columns as the target in  machine leaning model. Then we use SQL statement to merge these two table in one dataset and starts cleaning by using python Pandas library. The ERD png image shows the relationship diagram of 2 datasets.
 
-![ERD]()
+![ERD](https://github.com/AaraniSivasekaram/Vaccine_Hesitancy_Project/blob/Hayden/QuickDBD_ERD_Vaccine_Hesitancy_DB.png)
 
 ### Data Cleaning
