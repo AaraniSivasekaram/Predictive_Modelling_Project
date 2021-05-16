@@ -1,6 +1,3 @@
-# Predictive_Modelling_Project
-Final Project - COVID-19 predictive modelling project
-
 # Capstone Project - Sociodemographic Data and COVID-19 Vaccine Hesitancy in the US
 
 ## Team
