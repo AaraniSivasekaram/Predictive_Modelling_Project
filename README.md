@@ -1,6 +1,3 @@
-# Predictive_Modelling_Project
-Final Project - COVID-19 predictive modelling project
-
 # Capstone Project - Sociodemographic Data and COVID-19 Vaccine Hesitancy in the US
 
 ## Team
@@ -37,14 +34,23 @@ Final Project - COVID-19 predictive modelling project
 
 **Dashboard:** In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. 
 
+**Database Storage:** SQL (Postgres & pgAdmin, AWS) is the database we intend to use, and we will integrate Flask to display the data.
+
+**Machine Learning:** SciKitLearn is the Machine Learning library we'll be using to create a Random Forest classifier. 
+
+**Dashboard:** In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. To host the web page, we will use HTML and CSS with embedded Tableau visualizations.
+
 ## Machine Learning Model
 To predict vaccination hesitancy, our team has decided to use a Random Forest model (supervised, regression) primarily due to the number of feature inputs. Our plan consists of using approximately 70% of the dataset to train the machine learning algorithm, and then test the accuracy and predictive effectiveness on the remaining 30%. This model will determine the importance of each feature as it relates to vaccination hesitancy, providing a base for:
 * Identifying features that have a larger impact (and therefore act as a barrier)
 * The application of this model for other populations preparing for vaccination rollout
 
+*Refer to model example using mock data here: [RandomForest_example.ipynb](RandomForest_example.ipynb)*
+
 ## Database Structure
+
 We use PostgreSQL to create table for data base, dataset_1 "feature_Vaccine_Hesitancy.csv" has every columns as the features columns will be useing in machine leaning model and dataset_2 "Vaccine_estimated_target_Hesitancy.csv" has Estimated Hesitant and Estimated Strongly Hesitant columns as the target in  machine leaning model. Then we use SQL statement to merge these two table in one dataset and starts cleaning by using python Pandas library. The ERD png image shows the relationship diagram of 2 datasets.
 
-![ERD]()
+![ERD](https://github.com/AaraniSivasekaram/Vaccine_Hesitancy_Project/blob/Hayden/QuickDBD_ERD_Vaccine_Hesitancy_DB.png)
 
 ### Data Cleaning
