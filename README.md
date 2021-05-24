@@ -28,12 +28,6 @@
 ## Technology
 **Data Cleaning and Analysis:** Python version 3.7.6 (Visual Studio Code and Jupyter Notebook) with Python Libraries used to clean data and perform exploratory analysis (Pandas, numpy, flask, SQLAlchemy)
 
-**Database Storage:** SQL (Postgres & pgAdmin) is the database we intend to use, and we will integrate Flask to display the data.
-
-**Machine Learning:** SciKitLearn is the Machine Learning library we'll be using to create a Random Forest classifier. 
-
-**Dashboard:** In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. 
-
 **Database Storage:** SQL (Postgres & pgAdmin, AWS) is the database we intend to use, and we will integrate Flask to display the data.
 
 **Machine Learning:** SciKitLearn is the Machine Learning library we'll be using to create a Random Forest classifier. 
@@ -48,7 +42,7 @@ To predict vaccination hesitancy, our team has decided to use a Random Forest mo
 *Refer to model example using mock data here: [RandomForest_example.ipynb](RandomForest_example.ipynb)*
 
 ## Database Structure
-We plan to use SQL (Postgres and pgAdmin) to store our data in a database. In this preliminary data exploration phase, we used SQL to create two tables from data. Dataset_1 "feature_Vaccine_Hesitancy.csv" captured all features columns that we plan to use in our machine leaning model and dataset_2 "Vaccine_estimated_target_Hesitancy.csv" contains both target/outcome columns (% Estimated Hesitant and % Estimated Strongly Hesitant) for our machine learning model. We have used SQL statements to merge these two tables into one dataset (merged_Vaccine_Hesitance.csv") and then plan to start cleaning our data by using Python Pandas library. The Entity Relationship Diagram (ERD) image shows the relationship of the two datasets.
+We plan to use SQL (Postgres and pgAdmin) to store our data in a database. In this preliminary data exploration phase, we used SQL to create two tables from data. Dataset_1 "feature_Vaccine_Hesitancy.csv" captured all features columns that we plan to use in our machine leaning model and dataset_2 "Vaccine_estimated_target_Hesitancy.csv" contains both target/outcome columns (% Estimated Hesitant and % Estimated Strongly Hesitant) for our machine learning model. We have used SQL statements to merge these two tables into one dataset (merged_Vaccine_Hesitance.csv) and then plan to start cleaning our data by using Python Pandas library. The Entity Relationship Diagram (ERD) image shows the relationship of the two datasets.
 
 ![QuickDBD_ERD_Vaccine_Hesitancy_DB](https://github.com/AaraniSivasekaram/Vaccine_Hesitancy_Project/blob/Hayden/QuickDBD_ERD_Vaccine_Hesitancy_DB.png)
 
