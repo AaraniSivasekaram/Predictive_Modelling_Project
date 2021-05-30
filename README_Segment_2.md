@@ -58,14 +58,14 @@
 
 
 ## Presentation
-**Overview - Our draft presentation contains:**
-* An overview of our presentation 
-* Selected topic and rational
-* Description of our data source
-* Questions we hope to answer with our dataset and analysis
-* Description of the data exploration of our project, including preprocessing our data
-* Description of the data analysis we completed
-* Selected few images from our data visualization in Tableau
+**Our draft presentation contains:**
+* An overview of our presentation, 
+* Selected topic and rationale,
+* Description of our data source,
+* Questions we hope to answer with our dataset and analysis,
+* Description of the data exploration of our project, including preprocessing our data,
+* Description of the data analysis we completed,
+* Selected few images from our data visualization in Tableau, and
 * A conclusion and next steps
 
 **Please see link to our Google slides presentation for more details:** https://docs.google.com/presentation/d/191P9TQXqxlFJWycma8cBj7R7hkfTKrkr5KptemuW2LQ/edit?usp=sharing
