@@ -41,3 +41,8 @@
 
 
 ## Dashboard
+
+
+## Presentation
+Link to Google slides presentation: https://docs.google.com/presentation/d/191P9TQXqxlFJWycma8cBj7R7hkfTKrkr5KptemuW2LQ/edit?usp=sharing
+
