@@ -55,8 +55,15 @@
 
 
 ## Dashboard
+We are using the Tableau to creating the powerful analytic dashboards for our vacine hesitancy analysis project, Tableau is popular to handle big dataset and create interactive visuallization, also its easy for non-technical audience to understand the data story. 
 
+included table of charts:
+* State vs. % Estimated Hesitancy - heat mapping
+* Social Vulnerability Index vs. % Estimated Hesitancy 
+* % Adults fully vaccinated vs. % Estimated Hesitancy
+* Pie chart of different demographics
 
+In the dashboards, there are interactive elements for states, category of SVI, level of vacine concern to make the chart can be filtered or selected and shows the related table, chart and heat mao data. That help display the data findings for audience. 
 ## Presentation
 Link to Google slides presentation: https://docs.google.com/presentation/d/191P9TQXqxlFJWycma8cBj7R7hkfTKrkr5KptemuW2LQ/edit?usp=sharing
 
