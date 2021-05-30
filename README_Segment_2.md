@@ -60,8 +60,8 @@ The database was integrated between Python and SQL in two ways:
 
 The above integrations can be viewed [here](preprocessing_dataset.ipynb) and both the Python --> SQL and SQL --> Python connected are visible in the excerpt below:
 
-![Python_to_SQL](Resources/Python_to_SQL)
-![SQL_to_Python](Resources/SQL_to_Python)
+![Python_to_SQL]("Resources/Python_to_SQL.jpeg")
+![SQL_to_Python]("Resources/SQL_to_Python.jpeg")
 
 ## Dashboard
 
