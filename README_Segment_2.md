@@ -30,12 +30,26 @@
 
 **Database Storage:** SQL (Postgres & pgAdmin, AWS) is the database we intend to use, and we will integrate Flask to display the data.
 
-**Machine Learning:** SciKitLearn is the Machine Learning library we'll be using to create a Random Forest classifier. 
+**Machine Learning:** SciKitLearn is the Machine Learning library we'll be using to create a Linear Regression model and a Random Forest Regression model. Additionally, regression metrics will be used from this library.
 
 **Dashboard:** In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. To host the web page, we will use HTML and CSS with embedded Tableau visualizations.
 
-## Machine Learning Model & Data Cleaning 
+## Machine Learning Model & Preprocessing 
+**Description of preliminary data preprocessing:** The [merged dataset](Resources/merged_Vaccine_Hesitancy.csv) was used for the [data preprocessing](preprocessing_dataset.ipynb) in preparation for the machine learning models. Unnecessary feature columns were dropped. Remaining feature columns only had 1 row found to have a null value which was filled with 0. The [clean dataset](Resources/vaccine_hesitancy_clean.csv) was then connected with the database. 
 
+**Description of preliminary feature engineering and preliminary feature selection, including the decision-making process:** In the original dataset, two target outcomes were available: percent of population vaccine hesitant and percent of population strongly vaccine hesitant. Only one target outcome was chosen, **percent vaccine hesitant**, as it is unclear how the data/survey distinguished the difference between estimated vaccine hesitancy and estimated strong vaccine hesitancy. In the decision-making process for features, all columns with irrelevant/redundant data was removed. For example, the 'svi_category'(object) was a redundant column as the 'social_vulnerability_index'(float64) was available to use as a feature to train and test the models. 
+
+**Description of how data was split into training and testing sets:** For the random forest regression model, the training set used 70% of the data and the testing set used the remaining 30% of the data. 
+
+**Explanation of model choice, including limitations and benefits:** We chose to use supervised machine learning models as the dataset has a continuous target outcome that could be used for the model predictions within the numeric range of 0-1. 
+* **Linear regression** was the first model used to predict the potential effects of sociodemographic indicators on vaccine hesitancy. It is beneficial as it is a fast and efficient model for initial machine learning analysis. A simple [linear regression](linear_regression.ipynb) was used first to test if the data is linear or non-linear. The results of the linear regression model indicated a more complex model should be used as the predictions were not very close to the original targets. The major limitation of linear regression model is non-linear data. 
+* A **random forest regression** model was used to compare the efficiency and efficacy of the predictions to the linear regression model. The [random forest model](random_forest_regression.ipynb) will intake all feature columns to build several simple decision trees to predict the percent vaccine hesitancy. The random forest model is beneficial in this analysis as it can input multiple features in a fast and powerful algorithm which is not prone to overfitting. However, random forest is limited as all predictions are within the training set and it is unable to extrapolate values which are not within the dataset.
+
+**Regression metrics:** 
+* Mean Absolute Error
+* Mean Squared Error
+* R Squared Score
+* Explained Variance Score 
 
 ## Database Integration
 
