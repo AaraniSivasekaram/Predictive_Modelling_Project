@@ -53,9 +53,19 @@
 
 ## Database Integration
 
+The database was integrated between Python and SQL in two ways:
+
+* The datasets were loaded onto Python from a csv format, and then imported to SQL using SQLAlchemy after the dataset was cleaned
+* The now merged datasets were then used to create the Dashboard images (Tableau)
+
+The above integrations can be viewed [here](preprocessing_dataset.ipynb) are visible in the excerpt below:
+
+![Python_to_SQL](/Resources/Python_to_SQL.jpeg)
+![SQL_to_Python](/Resources/SQL_to_Python.jpeg)
 
 ## Dashboard
-We are using the Tableau to creating the powerful analytic dashboards for our vacine hesitancy analysis project, Tableau is popular to handle big dataset and create interactive visuallization, also its easy for non-technical audience to understand the data story. 
+**Description of the tools used to create dashboard**:
+We are using the Tableau to create powerful analytic dashboards and data visualizations for our vaccine hesitancy analysis project. Tableau is a popular tool used to handle big datasets and create interactive visualizations, it's also easy for a non-technical audience to understand our data story.
 
 included table of charts:
 * State vs. % Estimated Hesitancy - heat mapping
@@ -63,7 +73,20 @@ included table of charts:
 * % Adults fully vaccinated vs. % Estimated Hesitancy
 * Pie chart of different demographics
 
-In the dashboards, there are interactive elements for states, category of SVI, level of vacine concern to make the chart can be filtered or selected and shows the related table, chart and heat mao data. That help display the data findings for audience. 
-## Presentation
-Link to Google slides presentation: https://docs.google.com/presentation/d/191P9TQXqxlFJWycma8cBj7R7hkfTKrkr5KptemuW2LQ/edit?usp=sharing
+Draft Tableau Dashboards can be found [here](Vaccine_Hesitancy_Project.twbx).
 
+**Description of interactive elements**:
+In the dashboards, we plan to use interactive elements for US States, Category of SVI (Social Vulnerability Index), Level of Concern for Vaccine Rollout, to make the data visualizations that can be filtered or selected to show related table, charts and heat maps. We hope to display the data and our findings for an audience with a narrative.
+
+## Presentation
+**Our draft presentation contains:**
+* An overview of our presentation, 
+* Selected topic and rationale,
+* Description of our data source,
+* Questions we hope to answer with our dataset and analysis,
+* Description of the data exploration of our project, including preprocessing our data,
+* Description of the data analysis we completed,
+* Selected few images from our data visualization in Tableau, and
+* A conclusion and next steps
+
+**Please see link to our Google slides presentation for more details:** https://docs.google.com/presentation/d/191P9TQXqxlFJWycma8cBj7R7hkfTKrkr5KptemuW2LQ/edit?usp=sharing
