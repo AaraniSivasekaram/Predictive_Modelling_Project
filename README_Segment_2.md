@@ -75,6 +75,7 @@ included table of charts:
 
 Draft Tableau Dashboards can be found [here](Vaccine_Hesitancy_Project.twbx).
 
+
 **Description of interactive elements**:
 In the dashboards, we plan to use interactive elements for US States, Category of SVI (Social Vulnerability Index), Level of Concern for Vaccine Rollout, to make the data visualizations that can be filtered or selected to show related table, charts and heat maps. We hope to display the data and our findings for an audience with a narrative.
 
