@@ -64,7 +64,13 @@ The above integrations can be viewed [here](preprocessing_dataset.ipynb) are vis
 ![SQL_to_Python](/Resources/SQL_to_Python.jpeg)
 
 ## Dashboard
+**Description of the tools used to create dashboard**
+We are using the Tableau to create powerful analytic dashboards and data visualizations for our vaccine hesitancy analysis project. Tableau is a popular tool used to handle big datasets and create interactive visualizations, it's also easy for a non-technical audience to understand our data story.
 
+Draft Tableau Dashboards can be found [here](Vaccine_Hesitancy_Project.twbx)
+
+**Description of interactive elements**
+In the dashboards, we plan to use interactive elements for US States, Category of SVI (Social Vulnerability Index), Level of Concern for Vaccine Rollout, to make the data visualizations that can be filtered or selected to show related table, charts and heat maps. We hope to display the data and our findings for an audience with a narrative.
 
 ## Presentation
 **Our draft presentation contains:**
