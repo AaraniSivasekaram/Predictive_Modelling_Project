@@ -53,6 +53,15 @@
 
 ## Database Integration
 
+The database was integrated between Python and SQL in two ways:
+
+* The datasets were loaded onto Python from a csv format, and then imported to SQL using SQLAlchemy after the dataset was cleaned
+* The now merged datasets were then used to create the Dashboard images (Tableau)
+
+The above integrations can be viewed [here](preprocessing_dataset.ipynb) are visible in the excerpt below:
+
+![Python_to_SQL](/Resources/Python_to_SQL.jpeg)
+![SQL_to_Python](/Resources/SQL_to_Python.jpeg)
 
 ## Dashboard
 
