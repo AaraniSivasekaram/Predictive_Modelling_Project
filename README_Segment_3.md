@@ -1,16 +1,10 @@
 # Capstone Project - Sociodemographic Data and COVID-19 Vaccine Hesitancy in the US
 
-## Team
-* **Square:** Machine learning models (Tiffany)
-* **Circle:** Refine analysis; presentation and dashboard (Aarani)
-* **Triangle:** Refine and connect the database (Amy)
-* **X:** Dashboard (Hayden)
-
-## Communication Protocols
-* Group Slack channel created for quick and easy communications among all team members,
-* Google document created for information sharing (ideas, data, roles),
-* Additional zoom meeting time(s) determined outside of class hours (Saturdays and Sundays), and
-* Next steps will be determined at the end of each class and/or meeting.
+## Team - Week 3 Roles
+* **Square:** Finalize Machine Learning models (Tiffany)
+* **Circle:** Finalize Dashboard (Hayden)
+* **Triangle:** Finalize Presentation (Aarani)
+* **X:** Peer review codes (Amy)
 
 ## Project Overview
 **Topic:** An analysis of COVID-19 vaccine hesitancy.
@@ -67,20 +61,18 @@ The above integrations can be viewed [here](preprocessing_dataset.ipynb) are vis
 **Description of the tools used to create dashboard**:
 We are using the Tableau to create powerful analytic dashboards and data visualizations for our vaccine hesitancy analysis project. Tableau is a popular tool used to handle big datasets and create interactive visualizations, it's also easy for a non-technical audience to understand our data story.
 
-included table of charts:
+Included table of charts:
 * State vs. % Estimated Hesitancy - heat mapping
 * Social Vulnerability Index vs. % Estimated Hesitancy 
-* % Adults fully vaccinated vs. % Estimated Hesitancy
 * Pie chart of different demographics
 
 Draft Tableau Dashboards can be found [here](Vaccine_Hesitancy_Project.twbx).
-
 
 **Description of interactive elements**:
 In the dashboards, we plan to use interactive elements for US States, Category of SVI (Social Vulnerability Index), Level of Concern for Vaccine Rollout, to make the data visualizations that can be filtered or selected to show related table, charts and heat maps. We hope to display the data and our findings for an audience with a narrative.
 
 ## Presentation
-**Our draft presentation contains:**
+**Our presentation contains:**
 * An overview of our presentation, 
 * Selected topic and rationale,
 * Description of our data source,
