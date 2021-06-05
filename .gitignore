@@ -6,6 +6,9 @@ __pycache__/
 # config.py
 config.py
 
+# DS_Store
+.DS_Store
+
 # C extensions
 *.so
 
