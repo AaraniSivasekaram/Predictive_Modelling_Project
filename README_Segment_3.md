@@ -1,16 +1,10 @@
 # Capstone Project - Sociodemographic Data and COVID-19 Vaccine Hesitancy in the US
 
-## Team
-* **Square:** Machine learning models (Tiffany)
-* **Circle:** Refine analysis; presentation and dashboard (Aarani)
-* **Triangle:** Refine and connect the database (Amy)
-* **X:** Dashboard (Hayden)
-
-## Communication Protocols
-* Group Slack channel created for quick and easy communications among all team members,
-* Google document created for information sharing (ideas, data, roles),
-* Additional zoom meeting time(s) determined outside of class hours (Saturdays and Sundays), and
-* Next steps will be determined at the end of each class and/or meeting.
+## Team - Week 3 Roles
+* **Square:** Finalize Machine Learning models (Tiffany)
+* **Circle:** Finalize Dashboard (Hayden)
+* **Triangle:** Finalize Presentation (Aarani)
+* **X:** Peer review codes (Amy)
 
 ## Project Overview
 **Topic:** An analysis of COVID-19 vaccine hesitancy.
@@ -37,19 +31,30 @@
 ## Machine Learning Model & Preprocessing 
 **Description of preliminary data preprocessing:** The [merged dataset](Resources/merged_Vaccine_Hesitancy.csv) was used for the [data preprocessing](preprocessing_dataset.ipynb) in preparation for the machine learning models. Unnecessary feature columns were dropped. Remaining feature columns only had 1 row found to have a null value which was filled with 0. The [clean dataset](Resources/vaccine_hesitancy_clean.csv) was then connected with the database. 
 
-**Description of preliminary feature engineering and preliminary feature selection, including the decision-making process:** In the original dataset, two target outcomes were available: percent of population vaccine hesitant and percent of population strongly vaccine hesitant. Only one target outcome was chosen, **percent vaccine hesitant**, as it is unclear how the data/survey distinguished the difference between estimated vaccine hesitancy and estimated strong vaccine hesitancy. In the decision-making process for features, all columns with irrelevant/redundant data was removed. For example, the 'svi_category'(object) was a redundant column as the 'social_vulnerability_index'(float64) was available to use as a feature to train and test the models. 
+**Description of preliminary feature engineering and preliminary feature selection, including the decision-making process:** In the original dataset, two target outcomes were available: percent of population vaccine hesitant and percent of population strongly vaccine hesitant. Only one target outcome (y) was chosen, **percent vaccine hesitant**, as it is unclear how the data/survey distinguished the difference between estimated vaccine hesitancy and estimated strong vaccine hesitancy. In the decision-making process for features (X), all columns with irrelevant/redundant data was removed. For example, the 'svi_category'(object) was a redundant column as the 'social_vulnerability_index'(float64) was available to use as a feature to train and test the models. 
 
-**Description of how data was split into training and testing sets:** For the random forest regression model, the training set used 70% of the data and the testing set used the remaining 30% of the data. 
+**Description of how data was split into training and testing sets:** For the multiple linear regression and random forest regression model, the training set used 70% of the data and the testing set used the remaining 30% of the data. This was done with the Sci-Kit Learn library train_test_split method. 
 
-**Explanation of model choice, including limitations and benefits:** We chose to use supervised machine learning models as the dataset has a continuous target outcome that could be used for the model predictions within the numeric range of 0-1. 
+**Explanation of model choice, including limitations and benefits & changes in model choice:** We chose to use supervised machine learning models as the dataset has a continuous target outcome that could be used for the model predictions within the numeric range of 0-1. 
 * **Linear regression** was the first model used to predict the potential effects of sociodemographic indicators on vaccine hesitancy. It is beneficial as it is a fast and efficient model for initial machine learning analysis. A simple [linear regression](linear_regression.ipynb) was used first to test if the data is linear or non-linear. The results of the linear regression model indicated a more complex model should be used as the predictions were not very close to the original targets. The major limitation of linear regression model is non-linear data. 
+* **Multiple linear regression** was the next model used as we have multiple features (X) and one target (y). The benefits and limitations of this [linear model](multiple_linear_regression.ipynb) are similar with those of the linear regression. With multiple features, it is harder to visualize the dataset trends and therefore, heavily relies on the slope and y-intercept determined by the model. In this regression model, the data was split into the training and testing sets versus the simple linear regression model where all of the data was used for fitting and predicting the model. This ensures an extra method of validation and confidence on the regression model predictions.
 * A **random forest regression** model was used to compare the efficiency and efficacy of the predictions to the linear regression model. The [random forest model](random_forest_regression.ipynb) will intake all feature columns to build several simple decision trees to predict the percent vaccine hesitancy. The random forest model is beneficial in this analysis as it can input multiple features in a fast and powerful algorithm which is not prone to overfitting. However, random forest is limited as all predictions are within the training set and it is unable to extrapolate values which are not within the dataset.
 
 **Regression metrics:** 
-* Mean Absolute Error
-* Mean Squared Error
-* R Squared Score
-* Explained Variance Score 
+* Mean Absolute Error (MAE) - the average measure of error between predicted and actual values 
+* Mean Squared Error (MSE) - the average squared measure of error between predicted and actual values 
+* R Squared Score - coefficient of determination; 'goodness of fit', measures how well the model can predict unseen values
+* Explained Variance Score - proportional dispersion of data
+
+Of the three machine learning models, the most successful model was the **Random Forest Regression**. This model produced the highest R squared scored indicating it has a higher "goodness of fit" and can better predict unseen data; making it the best model to use when predicting vaccine hesitancy in Ontario. The MAE and MSE for the random forest model is also the closest to 0, indicated the measure of error is lowest when compared to the linear regression models. 
+
+-------------------------------------------------------------------------
+![Linear Regression Metrics](Resources/linear_regression_metrics.png)
+-------------------------------------------------------------------------
+![Multiple Linear Regression Metrics](Resources/multiple_regression_metrics.png)
+-------------------------------------------------------------------------
+![Random Forest Metrics](Resources/random_forest_metrics.png)
+-------------------------------------------------------------------------
 
 ## Database Integration
 
@@ -67,20 +72,18 @@ The above integrations can be viewed [here](preprocessing_dataset.ipynb) are vis
 **Description of the tools used to create dashboard**:
 We are using the Tableau to create powerful analytic dashboards and data visualizations for our vaccine hesitancy analysis project. Tableau is a popular tool used to handle big datasets and create interactive visualizations, it's also easy for a non-technical audience to understand our data story.
 
-included table of charts:
+Included table of charts:
 * State vs. % Estimated Hesitancy - heat mapping
 * Social Vulnerability Index vs. % Estimated Hesitancy 
-* % Adults fully vaccinated vs. % Estimated Hesitancy
 * Pie chart of different demographics
 
 Draft Tableau Dashboards can be found [here](Vaccine_Hesitancy_Project.twbx).
-
 
 **Description of interactive elements**:
 In the dashboards, we plan to use interactive elements for US States, Category of SVI (Social Vulnerability Index), Level of Concern for Vaccine Rollout, to make the data visualizations that can be filtered or selected to show related table, charts and heat maps. We hope to display the data and our findings for an audience with a narrative.
 
 ## Presentation
-**Our draft presentation contains:**
+**Our presentation contains:**
 * An overview of our presentation, 
 * Selected topic and rationale,
 * Description of our data source,
