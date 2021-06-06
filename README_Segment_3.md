@@ -88,7 +88,7 @@ There is potential to showcase the Tableau dashboard in the format of a webpage 
 * Utilizing a Flask App through Python (to showcase images from the Tableau dashboard, however it will not maintain the interactive aspect)
 
 ## Presentation
-![Vaccine Hesitancy Presentation](Resources/Vaccine Hesitancy Presentation.png)
+![Vaccine Hesitancy Presentation](Resources/Vaccine%20Hesitancy%20Presentation.png)
 
 **Our presentation contains:**
 * An overview of our presentation, 
