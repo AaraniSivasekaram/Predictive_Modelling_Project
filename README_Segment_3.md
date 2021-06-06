@@ -82,6 +82,12 @@ Draft Tableau Dashboards can be found [here](Vaccine_Hesitancy_Project.twbx).
 **Description of interactive elements**:
 In the dashboards, we plan to use interactive elements for US States, Category of SVI (Social Vulnerability Index), Level of Concern for Vaccine Rollout, to make the data visualizations that can be filtered or selected to show related table, charts and heat maps. We hope to display the data and our findings for an audience with a narrative.
 
+**Showcasing dashboard in a webpage**:
+There is potential to showcase the Tableau dashboard in the format of a webpage using one of the following options:
+* Tableau embed method (embedding share code in an already created website to maintain the interactive portion of Tableau)
+* Utilizing a Flask App through Python (to showcase images from the Tableau dashboard, however it will not maintain the interactive aspect)
+
+
 ## Presentation
 **Our presentation contains:**
 * An overview of our presentation, 
