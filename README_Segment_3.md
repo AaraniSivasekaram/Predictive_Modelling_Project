@@ -87,7 +87,6 @@ There is potential to showcase the Tableau dashboard in the format of a webpage 
 * Tableau embed method (embedding share code in an already created website to maintain the interactive portion of Tableau)
 * Utilizing a Flask App through Python (to showcase images from the Tableau dashboard, however it will not maintain the interactive aspect)
 
-
 ## Presentation
 **Our presentation contains:**
 * An overview of our presentation, 
