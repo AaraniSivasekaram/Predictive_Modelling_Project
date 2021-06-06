@@ -20,13 +20,13 @@
 4. How can this analysis inform vaccine implementation strategies within an Ontario context?
 
 ## Technology
-**Data Cleaning and Analysis:** Python version 3.7.6 (Visual Studio Code and Jupyter Notebook) with Python Libraries used to clean data and perform exploratory analysis (Pandas, numpy, flask, SQLAlchemy)
+**Data Cleaning and Analysis:** Python version 3.7.6 (Visual Studio Code and Jupyter Notebook) with Python Libraries used to clean data and perform exploratory analysis (Pandas, numpy, SQLAlchemy)
 
-**Database Storage:** SQL (Postgres & pgAdmin, AWS) is the database we intend to use, and we will integrate Flask to display the data.
+**Database Storage:** SQL (Postgres & pgAdmin) is the database we intend to use, and we plan to integrate Flask to display the data.
 
 **Machine Learning:** SciKitLearn is the Machine Learning library we'll be using to create a Linear Regression model and a Random Forest Regression model. Additionally, regression metrics will be used from this library.
 
-**Dashboard:** In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. To host the web page, we will use HTML and CSS with embedded Tableau visualizations.
+**Dashboard:** We created dashboards using Tableau Public to display data visualization. In addition, we plan to use a Flask template and integrate D3.js for a fully functioning and interactive dashboard. To host the web page, we will use HTML and CSS with embedded Tableau visualizations.
 
 ## Machine Learning Model & Preprocessing 
 **Description of preliminary data preprocessing:** The [merged dataset](Resources/merged_Vaccine_Hesitancy.csv) was used for the [data preprocessing](preprocessing_dataset.ipynb) in preparation for the machine learning models. Unnecessary feature columns were dropped. Remaining feature columns only had 1 row found to have a null value which was filled with 0. The [clean dataset](Resources/vaccine_hesitancy_clean.csv) was then connected with the database. 
@@ -88,14 +88,17 @@ There is potential to showcase the Tableau dashboard in the format of a webpage 
 * Utilizing a Flask App through Python (to showcase images from the Tableau dashboard, however it will not maintain the interactive aspect)
 
 ## Presentation
+![Vaccine Hesitancy Presentation](Resources/Vaccine Hesitancy Presentation.png)
+
 **Our presentation contains:**
 * An overview of our presentation, 
 * Selected topic and rationale,
 * Description of our data source,
 * Questions we hope to answer with our dataset and analysis,
 * Description of the data exploration of our project, including preprocessing our data,
+* Data visualizations from Tableau, 
 * Description of the data analysis we completed,
-* Selected few images from our data visualization in Tableau, and
-* A conclusion and next steps
+* Conclusions, lessons learned and next steps, and
+* Technologies used throughout the project.
 
 **Please see link to our Google slides presentation for more details:** https://docs.google.com/presentation/d/191P9TQXqxlFJWycma8cBj7R7hkfTKrkr5KptemuW2LQ/edit?usp=sharing
