@@ -1,10 +1,10 @@
 # Capstone Project - Sociodemographic Data and COVID-19 Vaccine Hesitancy in the US
 
-## Team - Week 3 Roles
-* **Square:** Finalize Machine Learning models (Tiffany)
-* **Circle:** Finalize Dashboard (Hayden)
-* **Triangle:** Finalize Presentation (Aarani)
-* **X:** Peer review codes (Amy)
+## Team 
+* Hayden Chen - https://github.com/hayden0098
+* Tiffany Lai - https://github.com/tiffcklai
+* Amy Talbot - https://github.com/A-Talbot
+* Aarani Sivasekaram - https://github.com/AaraniSivasekaram 
 
 ## Project Overview
 **Topic:** An analysis of COVID-19 vaccine hesitancy.
