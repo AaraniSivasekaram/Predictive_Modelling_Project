@@ -90,7 +90,7 @@ We intend to showcase our Tableau dashboard in the format of a webpage using one
 ## Conclusions 
 * **Predict**: Based on sociodemographic indicators available we were able to predict vaccine hesitancy with supervised machine learning regression models to 43.7% accuracy.
 
-* **Impact**: We can determine that indicators such as: SVI and CVAC level of concern have positive relationships with % of population estimated hesitant.
+* **Impacts**: We can determine that indicators such as: SVI and CVAC level of concern have positive relationships with % of population estimated hesitant.
 
 * **Analysis**: Factors such as sociodemographics and resource-constrained healthcare systems can act as barriers to vaccine implementation. Mitigation efforts should assess community needs to determine targeted vaccine rollout plans.
 
