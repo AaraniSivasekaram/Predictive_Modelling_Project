@@ -88,10 +88,13 @@ We intend to showcase our Tableau dashboard in the format of a webpage using one
 * Utilizing a Flask App through Python (to showcase images from the Tableau dashboard, however it will not maintain the interactive aspect)
 
 ## Conclusions 
-**Predict**: Based on sociodemographic indicators available we were able to predict vaccine hesitancy with supervised machine learning regression models to 43.7% accuracy.
-**Impact**: We can determine that indicators such as: SVI and CVAC level of concern have positive relationships with % of population estimated hesitant.
-**Analysis**: Factors such as sociodemographics and resource-constrained healthcare systems can act as barriers to vaccine implementation. Mitigation efforts should assess community needs to determine targeted vaccine rollout plans.
-**Extrapolate**:We can use regression models to predict vaccine hesitancy with Ontario regional-based datasets, however larger datasets with additional features may create results with higher accuracy.
+* **Predict**: Based on sociodemographic indicators available we were able to predict vaccine hesitancy with supervised machine learning regression models to 43.7% accuracy.
+
+* **Impact**: We can determine that indicators such as: SVI and CVAC level of concern have positive relationships with % of population estimated hesitant.
+
+* **Analysis**: Factors such as sociodemographics and resource-constrained healthcare systems can act as barriers to vaccine implementation. Mitigation efforts should assess community needs to determine targeted vaccine rollout plans.
+
+* **Extrapolate**:We can use regression models to predict vaccine hesitancy with Ontario regional-based datasets, however larger datasets with additional features may create results with higher accuracy.
 
 ## Presentation
 ![Vaccine Hesitancy Presentation](Resources/Vaccine%20Hesitancy%20Presentation.png)
