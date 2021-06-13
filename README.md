@@ -77,7 +77,9 @@ Included table of charts:
 * Social Vulnerability Index vs. % Estimated Hesitancy - bar graph
 * CVAC Level of Concern vs. % Estimated Hesitancy - line graph
 
-Draft Tableau Dashboards can be found [here](Vaccine_Hesitancy_Project.twbx).
+Tableau Dashboard file can be found [here](Vaccine_Hesitancy_Project.twbx).
+
+Tableau Public Dashboard can be found [here](https://public.tableau.com/views/Vaccine_Hesitancy_Project/Story1?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 **Description of interactive elements**:
 In the dashboards, we used interactive elements for US States, Category of SVI (Social Vulnerability Index), CVAC Level of Concern for Vaccine Rollout, to make the data visualizations that can be filtered or selected to show related table, charts and heat maps. We displayed the data and our findings for an audience with a narrative.
